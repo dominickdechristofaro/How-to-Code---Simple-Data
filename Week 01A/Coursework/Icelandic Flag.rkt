@@ -1,0 +1,28 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname |Icelandic Flag|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+(require 2htdp/image)
+
+(above
+       (beside (rectangle 60 60 "solid" "blue")
+               (rectangle 10 60 "solid" "white")
+               (rectangle 20 60 "solid" "red")
+               (rectangle 10 60 "solid" "white")
+               (rectangle 130 60 "solid" "blue")
+       )
+       (beside (rectangle 70 10 "solid" "white")
+               (rectangle 20 10 "solid" "red")
+               (rectangle 140 10 "solid" "white")
+       )
+       (rectangle 230 20 "solid" "red")
+       (beside (rectangle 70 10 "solid" "white")
+               (rectangle 20 10 "solid" "red")
+               (rectangle 140 10 "solid" "white")
+       )
+       (beside (rectangle 60 60 "solid" "blue")
+               (rectangle 10 60 "solid" "white")
+               (rectangle 20 60 "solid" "red")
+               (rectangle 10 60 "solid" "white")
+               (rectangle 130 60 "solid" "blue")
+       )
+)
